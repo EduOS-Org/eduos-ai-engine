@@ -1,1 +1,6 @@
+# Runtime dependency for engine.py (SOCKET_FALLBACK builds only)
 nltk
+
+# Dev tool: download GGUF model files from Hugging Face
+# Usage: huggingface-cli download bartowski/Qwen2.5-1.5B-Instruct-GGUF ...
+huggingface_hub[cli]
